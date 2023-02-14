@@ -43,10 +43,6 @@ export function Shop () {
   return (
     <div>
    <div className="justify-center text-xl text-indigo-400 font-mono">Store</div>
-   <span className="p-input-icon-left">
-    <i className="pi pi-search" />
-    <InputText placeholder="Search" />
-</span>
       {result && (
         <Product
           title={result.title}

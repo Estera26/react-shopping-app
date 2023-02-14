@@ -73,7 +73,6 @@ export function CartProvider({ children }: CartProviderProps){
         })
       }
       
-      console.log(cartProducts)
     return (
         <CartContext.Provider
           value={{ getProductQuantity,
