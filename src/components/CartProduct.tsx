@@ -66,10 +66,10 @@ export function CartProduct({ id, quantity }: CartProductProps){
           )}
         </div>
         <div className="text-gray-700 text-xs pl-2" >
-         $ {item.price}
+         DKK {item.price}
         </div>
       </div>
-      <div> Total: ${item.price * quantity}</div>
+      <div> Total:DKK{item.price * quantity}</div>
       <div className="flex align-items-center justify-content-between m-3">
       <div>
            {!showButtons ? (

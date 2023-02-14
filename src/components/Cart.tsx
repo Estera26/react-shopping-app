@@ -32,7 +32,7 @@ return(
       <CartProduct key={prod.id} {...prod} />
     ))}
     <div className="float-right mr-4 text-lg font-bold font-mono">
-      Total Price: ${" "} 
+      Total Price: DKK{" "} 
       {cartProducts.reduce((total, cartProduct) => {
           const item = result.find(i => i.id === cartProduct.id)
           return total + (item?.price || 0) * cartProduct.quantity

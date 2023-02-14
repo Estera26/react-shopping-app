@@ -142,7 +142,7 @@ export function Product({ id, title, price, images }: ProductProps) {
           </div>
           <div className="flex align-items-center justify-content-between m-3">
             <span className="align-self-center text-2xl font-semibold mb-2 md:align-self-end">
-              ${data.price}
+              DKK {data.price}
             </span>
             <span>
               {quantity === 0 ? (
